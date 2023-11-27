@@ -1,0 +1,70 @@
+@import url("http://cdn.cheil.io/SEPOL/MAILING_MODULES/FONTS/SamsungOne-200_v1.0_0.ttf");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Samsung One";
+  src: url(http://cdn.cheil.io/SEPOL/MAILING_MODULES/FONTS/SamsungOne-200_v1.0_0.ttf);
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Samsung One";
+  src: url(http://cdn.cheil.io/SEPOL/MAILING_MODULES/FONTS/SamsungOne-300_v1.0.ttf);
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Samsung One";
+  src: url(http://cdn.cheil.io/SEPOL/MAILING_MODULES/FONTS/SamsungOne-400_v1.0_0.ttf);
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Samsung One";
+  src: url(http://cdn.cheil.io/SEPOL/MAILING_MODULES/FONTS/SamsungOne-450_v1.0.ttf);
+  font-style: normal;
+  font-weight: 450;
+}
+
+@font-face {
+  font-family: "Samsung One";
+  src: url(http://cdn.cheil.io/SEPOL/MAILING_MODULES/FONTS/SamsungOne-500_v1.0.ttf);
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Samsung One";
+  src: url(http://cdn.cheil.io/SEPOL/MAILING_MODULES/FONTS/SamsungOne-600_v1.0.ttf);
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Samsung One";
+  src: url(http://cdn.cheil.io/SEPOL/MAILING_MODULES/FONTS/SamsungOne-700_v1.0_0.ttf);
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Samsung One";
+  src: url(http://cdn.cheil.io/SEPOL/MAILING_MODULES/FONTS/SamsungOne-800_v1.0.ttf);
+  font-style: normal;
+  font-weight: 800;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  font-family: "Samsung One";
+}

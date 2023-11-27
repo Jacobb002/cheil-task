@@ -1,0 +1,72 @@
+.filter-container {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 18px;
+}
+
+.filter-container div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.filter-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7px;
+}
+
+.filter-title {
+  width: 244px;
+  height: 20px;
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.filter-input {
+  display: flex;
+  width: 249px;
+  padding: 8px 12px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  background: #fff;
+}
+
+.filter-input .filter-select {
+  display: flex;
+  width: 218px;
+  align-items: center;
+  gap: 50px;
+  border: none;
+  text-transform: capitalize;
+}
+
+.filter-select * {
+  width: 249px;
+  height: 125px;
+  flex-shrink: 0;
+  background: #fdfdfd;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.02);
+  text-transform: capitalize;
+}
+
+.filter-select option:checked,
+.filter-select option:hover {
+  background: #f3f3f3 !important;
+}
+
+.test {
+  width: 249px;
+  height: 40px;
+  flex-shrink: 0;
+  color: #000;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}

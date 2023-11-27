@@ -1,0 +1,220 @@
+.product-container {
+  display: flex;
+  padding: 25px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  background: #fff;
+}
+
+.product-container > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.product-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.image-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.image-section div {
+  display: flex;
+  width: 290px;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+}
+
+.image-section div img {
+  width: 200px;
+  height: 200px;
+  flex-shrink: 0;
+}
+
+.body-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.header {
+  display: flex;
+  width: 290px;
+  padding-bottom: 0px;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px; /* 122.222% */
+}
+
+.details {
+  width: 290px;
+  height: 71px;
+  color: #767676;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 150% */
+}
+
+.details div span {
+  color: #000;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.energy-class {
+  display: flex;
+  width: 290px;
+  align-items: flex-start;
+  gap: 9px;
+  color: #767676;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 150% */
+}
+
+.energy-logo {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.energy-logo img {
+  width: 49px;
+  height: 18px;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.energy-logo span {
+  width: 31px;
+  color: #fff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px; /* 116.667% */
+  text-transform: uppercase;
+  position: absolute;
+  left: 5px;
+}
+
+.cost-section {
+  display: flex;
+  width: 290px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1px;
+}
+
+.sale-information {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  color: #767676;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 150% */
+}
+
+.cost {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.cost span:first-child {
+  color: #000;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 100% */
+}
+
+.cost span:last-child {
+  width: 19px;
+  height: 31px;
+  color: #000;
+  text-align: right;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 114.286% */
+}
+
+.installement {
+  display: flex;
+  width: 290px;
+  align-items: flex-start;
+  gap: 9px;
+  color: #555;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px; /* 112.5% */
+}
+
+.product-btn {
+  display: flex;
+  height: 36px;
+  padding: 14px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 24px;
+  background: #1428a0;
+  border: none;
+  color: #fff;
+  text-align: center;
+
+  /* Web/Button */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 114.286% */
+  letter-spacing: 2.1px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.product-btn.active {
+  display: flex;
+  height: 36px;
+  padding: 14px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 24px;
+  background: #1c1c1c;
+  color: #fff;
+  text-align: center;
+
+  /* Web/Button */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 114.286% */
+  letter-spacing: 2.1px;
+  text-transform: uppercase;
+}
